@@ -8,7 +8,7 @@ app.use(cors({
 }))
 
 try{
-    mongoose.connect("mongodb+srv://arjuntudu9163:bA2Wmkw8LjVSWlVZ@cluster0.cq6wv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    mongoose.connect("mongodb+srv://arjuntudu9163:fv9FIKG1eb8UKcee@cluster0.cq6wv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 }catch(e){
     console.log(e)
 }
